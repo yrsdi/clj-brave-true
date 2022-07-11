@@ -32,7 +32,11 @@
   ;; nil, true, false, Truthiness, Equality, and Boolean Expressions
   ;; nil digunakan untuk identifikasi 'no value'
   (nil? 1) (nil? nil)
-
+  ;; Truthiness
+  (if "saya makan udang"
+    "badan gatal dan mual")
+  (if nil 
+    "pesan ini tidak akan di evaluate, karena kondisi yg dimita false (kosong)")
   )
 
 
