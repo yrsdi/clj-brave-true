@@ -38,6 +38,16 @@
   (if nil 
     "pesan ini tidak akan di evaluate, karena kondisi yg dimita false (kosong)")
   )
+  ;; equality operator 
+  (= 1 1)
+  (= nil nil)
+  (= 1 2)
+  (= 'string' "string")
+  (= "String" "string")
+  ;; boolean operator (or and)
+  ;; or akan mengembalikan nilai "true" dari yg pertama atau terakhir
+  (or false nil :large_I_mean_venti :why_cant_I_just_say_large)
+  (or (= 1 1) (= "yes" "no"))
 
 
 
