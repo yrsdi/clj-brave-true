@@ -46,8 +46,10 @@
   (= "String" "string")
   ;; boolean operator (or and)
   ;; or akan mengembalikan nilai "true" dari yg pertama atau terakhir
+  ;; and akan mengembalikan nilai "false" dari yg pertama atau jika "no values" akan mengembalikan nilai "false" atau nilai "true" yg terakhir
   (or false nil :large_I_mean_venti :why_cant_I_just_say_large)
-  (or (= 1 1) (= "yes" "no"))
+  (or (= 1 0) (= "yes" "yes"))
+  (and (= 1 0) (= "yes" "yes"))
 
 
 
