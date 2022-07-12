@@ -35,22 +35,53 @@
   ;; Truthiness
   (if "saya makan udang"
     "badan gatal dan mual")
-  (if nil 
-    "pesan ini tidak akan di evaluate, karena kondisi yg dimita false (kosong)")
-  )
+  (if nil
+    "pesan ini tidak akan di evaluate, karena kondisi yg dimita false (kosong)"))
   ;; equality operator 
-  (= 1 1)
-  (= nil nil)
-  (= 1 2)
-  (= 'string' "string")
-  (= "String" "string")
-  ;; boolean operator (or and)
-  ;; or akan mengembalikan nilai "true" dari yg pertama atau terakhir
-  ;; and akan mengembalikan nilai "false" dari yg pertama atau jika "no values" akan mengembalikan nilai "false" atau nilai "true" yg terakhir
-  (or false nil :large_I_mean_venti :why_cant_I_just_say_large)
-  (or (= 1 0) (= "yes" "yes"))
-  (and (= 1 0) (= "yes" "yes"))
+(= 1 1)
+(= nil nil)
+(= 1 2)
+(= 'string' "string")
+(= "String" "string")
+;; boolean operator (or and)
+;; or akan mengembalikan nilai "true" dari yg pertama atau terakhir
+;; and akan mengembalikan nilai "false" dari yg pertama atau jika "no values" akan mengembalikan nilai "false" atau nilai "true" diakhir
+(or false nil :large_I_mean_venti :why_cant_I_just_say_large)
+(or (= 1 0) (= "yes" "yes"))
+(and (= 1 0) (= "yes" "yes"))
+(and :free_wifi :hot_coffee)
+(and :feelin_super_cool nil false)
 
+;; naming values with def
+(def failed-protagonist-names
+  ["Harry potter" "Doreen the explorer" "The incredible bulk"])
+failed-protagonist-names
+
+;;bad way
+(def severity :mild)
+(def error-message "OH GOD! IT'S A DISASTER! WE'RE ")
+(if (= severity :mild)
+  (def error-message (str error-message "MILDLY INCONVENIENCED!"))
+  (def error-message (str error-message "DOOOOOOOMED!")))
+
+;; good way
+(defn error-messages
+  [severity]
+  (str "OH GOD! IT'S A DISASTER! WE'RE "
+       (if (= severity :mild)
+         "MILDLY INCONVENIENCED!"
+         "DOOOOOOOMED!")))
+
+(error-messages :mild)
+
+;; passing def name
+(defn error-messagess
+  [severity]
+  (if (= severity :mild)
+    (str error-message "MILDLY INCONVENIENCED!")
+    (str error-message "DOOOOOOOMED!")))
+
+(error-messages :mild)
 
 
 (ns clj-brave-true.core

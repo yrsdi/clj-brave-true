@@ -129,3 +129,94 @@ true
 clj꞉clj-brave-true.core꞉> 
 false
 clj꞉clj-brave-true.core꞉> 
+:large_I_mean_venti
+clj꞉clj-brave-true.core꞉> 
+false
+clj꞉clj-brave-true.core꞉> 
+:hot_coffee
+clj꞉clj-brave-true.core꞉> 
+true
+clj꞉clj-brave-true.core꞉> 
+true
+clj꞉clj-brave-true.core꞉> 
+false
+clj꞉clj-brave-true.core꞉> 
+nil
+clj꞉clj-brave-true.core꞉> 
+:large_I_mean_venti
+clj꞉clj-brave-true.core꞉> 
+true
+clj꞉clj-brave-true.core꞉> 
+false
+clj꞉clj-brave-true.core꞉> 
+:hot_coffee
+clj꞉clj-brave-true.core꞉> 
+nil
+clj꞉clj-brave-true.core꞉> 
+#'clj-brave-true.core/failed-protagonist-names
+clj꞉clj-brave-true.core꞉> 
+; Execution error (ArityException) at clj-brave-true.core/eval8005 (form-init15026411988366807585.clj:59).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉clj-brave-true.core꞉> 
+0
+clj꞉clj-brave-true.core꞉> 
+; Execution error (IllegalArgumentException) at clj-brave-true.core/eval8007 (form-init15026411988366807585.clj:59).
+; Key must be integer
+clj꞉clj-brave-true.core꞉> 
+; Execution error (ArityException) at clj-brave-true.core/eval8009 (form-init15026411988366807585.clj:59).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉clj-brave-true.core꞉> 
+; Syntax error compiling def at (d:\playground\clojure\clj-brave-true\src\clj_brave_true\core.clj:57:4).
+; Too many arguments to def
+clj꞉clj-brave-true.core꞉> 
+; Execution error (ArityException) at clj-brave-true.core/eval8011 (form-init15026411988366807585.clj:59).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉clj-brave-true.core꞉> 
+; Syntax error compiling def at (d:\playground\clojure\clj-brave-true\src\clj_brave_true\core.clj:57:4).
+; Too many arguments to def
+clj꞉clj-brave-true.core꞉> 
+#'clj-brave-true.core/failed-protagonist-names
+clj꞉clj-brave-true.core꞉> 
+["Harry potter" "Doreen the explorer" "The incredible bulk"]
+clj꞉clj-brave-true.core꞉> 
+; Syntax error compiling at (d:\playground\clojure\clj-brave-true\src\clj_brave_true\core.clj:62:5).
+; Unable to resolve symbol: severity in this context
+clj꞉clj-brave-true.core꞉> 
+#'clj-brave-true.core/severity
+clj꞉clj-brave-true.core꞉> 
+#'clj-brave-true.core/error-message
+clj꞉clj-brave-true.core꞉> 
+#'clj-brave-true.core/error-message
+clj꞉clj-brave-true.core꞉> 
+#'clj-brave-true.core/error-message
+clj꞉clj-brave-true.core꞉> 
+"OH GOD! IT'S A DISASTER! WE'RE MILDLY INCONVENIENCED!MILDLY INCONVENIENCED!MILDLY INCONVENIENCED!"
+clj꞉clj-brave-true.core꞉> 
+"OH GOD! IT'S A DISASTER! WE'RE MILDLY INCONVENIENCED!MILDLY INCONVENIENCED!DOOOOOOOMED!"
+clj꞉clj-brave-true.core꞉> 
+"OH GOD! IT'S A DISASTER! WE'RE MILDLY INCONVENIENCED!MILDLY INCONVENIENCED!MILDLY INCONVENIENCED!"
+clj꞉clj-brave-true.core꞉> 
+#'clj-brave-true.core/error-messages
+clj꞉clj-brave-true.core꞉> 
+"OH GOD! IT'S A DISASTER! WE'RE MILDLY INCONVENIENCED!MILDLY INCONVENIENCED!MILDLY INCONVENIENCED!"
+clj꞉clj-brave-true.core꞉> 
+#'clj-brave-true.core/error-message
+clj꞉clj-brave-true.core꞉> 
+"OH GOD! IT'S A DISASTER! WE'RE MILDLY INCONVENIENCED!"
+clj꞉clj-brave-true.core꞉> 
+#'clj-brave-true.core/error-messages
+clj꞉clj-brave-true.core꞉> 
+"OH GOD! IT'S A DISASTER! WE'RE MILDLY INCONVENIENCED!"
+clj꞉clj-brave-true.core꞉> 
+#'clj-brave-true.core/error-messagess
+clj꞉clj-brave-true.core꞉> 
+"OH GOD! IT'S A DISASTER! WE'RE MILDLY INCONVENIENCED!"
+clj꞉clj-brave-true.core꞉> 
+"clj_brave_true.core$error_message@6871da9eDOOOOOOOMED!"
+clj꞉clj-brave-true.core꞉> 
+"clj_brave_true.core$error_message@6871da9eMILDLY INCONVENIENCED!"
+clj꞉clj-brave-true.core꞉> 
+#'clj-brave-true.core/error-messagess
+clj꞉clj-brave-true.core꞉> 
+"OH GOD! IT'S A DISASTER! WE'RE MILDLY INCONVENIENCED!"
+clj꞉clj-brave-true.core꞉> 
